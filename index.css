@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+    background-color: #948979;
+}
+.num-btn{
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #224a64;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(211, 207, 199);
+}
+
+.input-nums{
+    height: 50px;
+    width: 300px;
+    font-size: large;
+    background-color: #173447;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+#equal{
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+}
+form{
+    
+    height: 355px;
+    width: 350px;
+    background-color: #153448;
+    border: 2px solid #3C5B6F;
+    border-radius: 20px;
+}

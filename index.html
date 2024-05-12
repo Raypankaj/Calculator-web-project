@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form >
+    <p><input type="text" class="input-nums" name ="display" value= ></p>
+    <div class="container">
+        <input class="num-btn" id="1" type="button" value="1" onclick = " display.value += '1' " >
+        <input class="num-btn" id="2" type="button" value="2" onclick = " display.value += '2' ">
+        <input class="num-btn" id="3" type="button" value="3" onclick = " display.value += '3' ">
+        <input class="num-btn" id="3" type="button" value="+" onclick = " display.value += '+' "><br>
+        <input class="num-btn" id="4" type="button" value="4" onclick = " display.value += '4' ">
+        <input class="num-btn" id="5" type="button" value="5" onclick = " display.value += '5' ">
+        <input class="num-btn" id="6" type="button" value="6" onclick = " display.value += '6' ">
+        <input class="num-btn" id="6" type="button" value="-" onclick = " display.value += '-' "><br>
+        <input class="num-btn" id="7" type="button" value="7" onclick = " display.value += '7' ">
+        <input class="num-btn" id="8" type="button" value="8" onclick = " display.value += '8' ">
+        <input class="num-btn" id="9" type="button" value="9" onclick = " display.value += '9' ">
+        <input class="num-btn" id="9" type="button" value="x" onclick = " display.value += '*' "><br>
+        <input class="num-btn" id="0" type="button" value="0" onclick = " display.value += '0' ">
+        <input class="num-btn" id="daut" type="button" value="." onclick = " display.value += '.' ">
+        <input class="num-btn" id="00" type="button" value="00" onclick = " display.value += '00' ">
+        <input class="num-btn" id="devide" type="button" value="/" onclick = " display.value += '/' "><br>
+        <input class="num-btn" id="AC" type="button" value="AC" onclick = " display.value = '' ">
+        <input class="num-btn" id="equal" type="button" value="=" onclick = " display.value = eval(display.value)">
+        <input class="num-btn" id="DE" type="button" value="DE" onclick = " display.value = display.value.toString().slice(0,-1) ">
+    </div>
+</form>
+</body>
+</html>
